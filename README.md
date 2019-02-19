@@ -5,4 +5,4 @@ This project is based off of a conditional GAN constructed for single-cell RNA-s
 The `main.py` script is used to train and generate new samples. At this time, samples are created after 1000 iterations of training and stored for further analysis. 
 
 ## Vignette Data
-Data is included in ?geo_mat?. All data has been normalized with COMBAT to enable cross dataset and cancer comparison. 
+Data is expected in the form of an hdf5 file in the folder specificed in parameters.json. All data must have been normalized with COMBAT to enable cross dataset and cancer comparison. The current dataset is too big to be hosted; a minuature one for a vignette is under development. 
